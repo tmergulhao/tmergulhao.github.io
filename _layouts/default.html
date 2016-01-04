@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+<!doctype html><html>
+
+{% include head.html %}
+
+<body><div class="wrapper">
+
+{% include header.html %}
+
+<section>
+
+<article>
+
+  <h2>{{ page.title }}<small style="display:block">{{ page.subtitle }}</small></h2>
+
+  {{ content }}
+
+</article>
+
+</section>
+
+{% if site.posts.first[0] != null %}
+
+<section>
+
+  {% for post in site.posts %}
+  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+  	<!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+  	<h1>{{ post.title }}</h1>
+  	{{ post.excerpt | markdownify }}
+  </a>
+  {% endfor %}
+
+</section>
+
+{% endif %}
+
+{% include footer.html %}
+
+</div>
+
+<script src="javascripts/scale.fix.js"></script>
+
+</body>
+</html>
