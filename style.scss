@@ -10,11 +10,6 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
-}
-
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
@@ -33,11 +28,6 @@ a {
       color:#777;
     }
   }
-}
-
-.wrapper {
-  width:860px;
-  margin:0 auto;
 }
 
 blockquote {
@@ -89,7 +79,6 @@ header {
   width:270px;
   float:left;
   position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
   ul {
     list-style:none;
     height:40px;
@@ -164,12 +153,10 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
-
-  div.wrapper {
+  body > div {
     width:auto;
     margin:0;
   }
