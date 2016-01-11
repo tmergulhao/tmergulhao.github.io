@@ -5,7 +5,7 @@ layout: compress
 
 {% include head.html %}
 
-<body><div class="center-block" style="width:860px">
+<body><div class="center-block">
 
 {% include header.html %}
 
@@ -21,22 +21,20 @@ layout: compress
 
 </section>
 
-{% if site.posts.first[0] != null %}
-
 <section>
+
+  <h2>Blog</h2>
 
   {% for post in site.posts %}
   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-  	<!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
 
-  	<h1>{{ post.title }}</h1>
+
+  	<h3>{{ post.title }}</h3>
   	{{ post.excerpt | markdownify }}
   </a>
   {% endfor %}
 
 </section>
-
-{% endif %}
 
 {% include footer.html %}
 

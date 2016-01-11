@@ -8,6 +8,9 @@ body {
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  & > div {
+    max-width: 860px;
+  }
 }
 
 p, ul, ol, table, pre, dl {
@@ -30,17 +33,36 @@ a {
   }
 }
 
-blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
+
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
   font-size:12px;
+}
+
+article {
+  & > * {
+    margin-bottom: 20px;
+  }
+  blockquote {
+    border-left: 3px solid #e5e5e5;
+    padding-left: 20px;
+    color: #252525;
+    font-style:italic;
+  }
+  figure {
+    border-left: 3px solid #e5e5e5;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 20px !important;
+    figcaption {
+      margin:0;
+      margin-top: 10px;
+      color: #252525;
+      font-weight: 300;
+      font-style:italic;
+    }
+  }
 }
 
 pre {
@@ -79,51 +101,6 @@ header {
   width:270px;
   float:left;
   position:fixed;
-  ul {
-    list-style:none;
-    height:40px;
-    padding:0;
-    background: #f4f4f4;
-    border-radius:5px;
-    border:1px solid #e0e0e0;
-    width:270px;
-    a {
-      line-height:1;
-      font-size:11px;
-      color:#999;
-      display:block;
-      text-align:center;
-      padding-top:6px;
-      height:34px;
-      &:hover {
-        color:#999;
-      }
-      &:active {
-        background-color:#f0f0f0;
-      }
-      strong {
-        font-size:14px;
-        display:block;
-        color:#222;
-      }
-    }
-    li {
-      width:89px;
-      float:left;
-      border-right:1px solid #e0e0e0;
-      height:40px;
-      &:first-child a {
-        border-radius:5px 0 0 5px;
-      }
-      &:last-child a {
-        border-radius:0 5px 5px 0;
-      }
-    }
-    li + li + li {
-      border-right:none;
-      width:89px;
-    }
-  }
 }
 
 strong {
@@ -172,16 +149,11 @@ footer {
     a small {
       display:inline;
     }
-    ul {
-      position:absolute;
-      right:50px;
-      top:52px;
-    }
   }
 
-  section {
+  section, footer {
     border:1px solid #e5e5e5;
-    border-width:1px 0;
+    border-width:1px 0 0 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -194,9 +166,6 @@ footer {
 
   header {
     padding:0;
-    ul, p.view {
-      position:static;
-    }
   }
 
   pre, code {
@@ -207,14 +176,6 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
-  }
-  header {
-    ul {
-      width:99%;
-    }
-    li, ul li + li + li {
-      width:33%;
-    }
   }
 }
 

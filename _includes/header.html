@@ -1,3 +1,13 @@
 <header>
-  <h1>tmergulhao<small style="display:block">Blog e portfólio pessoal de Tiago Mergulhão</small></h1>
+  <h1><a href="{{ site.url }}">tmergulhao</a></h1>
+  <nav>
+    <ul class="list-unstyled hidden">
+      {% for page in site.pages %}
+        {% if page.date == null %}
+        {% else %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
