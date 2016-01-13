@@ -1,9 +1,14 @@
 ---
-layout: default
+layout: home
 title: Sobre mim
 subtitle:
+type: home
 date: 2016-01-09 00:00:00
 ---
+
+---
+
+### TL;DR <small class="hover-only">too long; didn't read</small>
 
 Sou estudante de Design na Univerdiade de Brasília.
 Gosto trabalhar com design de interação e interface gráfica.

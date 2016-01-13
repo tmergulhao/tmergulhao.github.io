@@ -1,5 +1,13 @@
 <header>
   <h1><a href="{{ site.url }}">tmergulhao</a></h1>
+  </br>
+
+  {% for page in site.pages %}
+  {% if page.layout == "home" %}
+    {{ page.content | markdownify }}
+  {% endif %}
+  {% endfor %}
+
   <nav>
     <ul class="list-unstyled hidden">
       {% for page in site.pages %}
