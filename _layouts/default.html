@@ -21,19 +21,6 @@ layout: compress
 
 </section>
 
-<section>
-
-  {% for post in site.posts %}
-  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-
-
-  	<h3>{{ post.title }}</h3>
-  	{{ post.excerpt | markdownify }}
-  </a>
-  {% endfor %}
-
-</section>
-
 {% include footer.html %}
 
 </div>
