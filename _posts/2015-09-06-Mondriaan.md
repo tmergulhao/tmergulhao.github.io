@@ -3,7 +3,14 @@ layout: blog
 title:  "A obra de Mondrian"
 date:   2015-12-01 00:00:00
 categories: blog
+text: "#150c1a"
+emphasis: "#ff6e6e"
+emphasiss: "rgb(86, 125, 212)"
+background: "#f5f5e7"
+borders: "rgb(119, 119, 119)"
 excerpt_separator: <!--more-->
+style: |
+  /**/
 ---
 
 > “Mondrian’s absolutist aesthetic of abstraction”

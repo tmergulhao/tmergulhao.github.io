@@ -21,6 +21,14 @@
       a, h1, h2, h3, h4, h5, h6 {
         color: {{ page.emphasis }} !important;
       }
+      a:nth-child(5n+1),
+      a:nth-child(11n+1),
+      a:nth-child(13n+1),
+      a:nth-child(17n+1),
+      a:nth-child(29n+1) {
+      	color: {{ page.emphasiss }} !important;
+      }
+      blockquote, figure, hr { border-color: {{ page.borders }} !important; }
       {{ page.style }}
     </style>
 </head>
