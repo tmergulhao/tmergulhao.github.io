@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Ambience, initial commit"
 date:   2015-02-22 14:32:20
 tags: interface, reponsividade, luz, Swift, Cocoa, código

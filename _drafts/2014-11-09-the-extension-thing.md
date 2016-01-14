@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Tales of a Swift future"
 sub: "The extension thing"
 date:   2014-11-09 14:32:20
