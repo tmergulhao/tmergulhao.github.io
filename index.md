@@ -20,4 +20,4 @@ Se você conhece alguma rede social de relevância que eu possa estar é só pro
 
 <br>
 
-[Currículo →](/cv.html)
+<!-- [Currículo →](/cv.html) -->
