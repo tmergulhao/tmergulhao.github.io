@@ -17,6 +17,17 @@ hr {
   }
 }
 
+.hover-list {
+  &:hover {
+    li {
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 .hover-only {
   display: none;
 }

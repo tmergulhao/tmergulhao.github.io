@@ -10,14 +10,20 @@ layout: compress
 {% include header.html %}
 
 <section>
+
+<ul class="list-unstyled hover-list">
   {% for post in site.posts %}
+  <li>
   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-
-
-  	<h3>{{ post.title }}</h3>
-  	{{ post.excerpt | markdownify }}
+    <article>
+      <h3>{{ post.title }}</h3>
+      {{ post.excerpt | markdownify }}
+    </article>
   </a>
+  <li>
   {% endfor %}
+</ul>
+
 </section>
 
 {% include footer.html %}
