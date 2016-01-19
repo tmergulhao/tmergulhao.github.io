@@ -3,22 +3,32 @@
 
 @import "github-light";
 
+$border-width: 3px;
+$gutter: 30px;
+
+hr {
+  border: 0 solid #e5e5e5;
+  border-width: 2px 0 0;
+}
+@media print, screen and (max-width: 960px) {
+  section, footer {
+    border: 0 solid #e5e5e5;
+    border-width: 2px 0 0;
+  }
+}
+
 .hover-only {
   display: none;
 }
-
 *:hover > .hover-only {
   display: inline;
 }
 
 body {
-  padding:50px;
+  padding: 30px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
-  & > div {
-    max-width: 860px;
-  }
 }
 
 p, ul, ol, table, pre, dl {
@@ -51,9 +61,6 @@ article {
   & > * {
     margin-bottom: 20px;
   }
-  blockquote {
-
-  }
   figure {
     padding: 10px 0 10px;
     margin-bottom: 20px !important;
@@ -63,9 +70,10 @@ article {
     }
   }
   blockquote, figure {
-    border-left: 1px solid #e5e5e5;
+    border-left: $border-width solid #e5e5e5;
     color: rgb(119, 119, 119);
-    padding-left: 20px;
+    padding-left: $gutter - $border-width;
+    margin-left: -$gutter;
   }
   blockquote p, figure figcaption {
     font-style:italic;
@@ -138,29 +146,28 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-  body > div {
-    width:auto;
-    margin:0;
-  }
-
   header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
-
   header {
-    padding-right:320px;
     a small {
       display:inline;
     }
   }
-
   section, footer {
-    border:1px solid #e5e5e5;
-    border-width:1px 0 0 0;
     padding:20px 0;
-    margin:0 0 20px;
+    margin:0 0 $gutter;
+  }
+}
+
+@media print, screen and (min-width: 961px) {
+  body {
+    & > div {
+      max-width: 860px;
+      margin:0;
+    }
   }
 }
 
@@ -168,11 +175,9 @@ footer {
   body {
     word-wrap:break-word;
   }
-
   header {
     padding:0;
   }
-
   pre, code {
     word-wrap:normal;
   }

@@ -10,7 +10,10 @@ background: "#f5f5e7"
 borders: "rgb(119, 119, 119)"
 excerpt_separator: <!--more-->
 style: |
-  /**/
+  ul {
+    list-style: none;
+    padding-left: 15px;
+  }
 ---
 
 > “Mondrian’s absolutist aesthetic of abstraction”
@@ -65,18 +68,18 @@ Como visto no excerto do diário de Mondrian, sua identificação com a realidad
 
 ## Referências
 
-http://www.newcriterion.com/articles.cfm/Mondrian---mysticism---ldquo-My-long-search-is-over-rdquo--4237
-http://www.wikiart.org/en/piet-mondrian
-http://www2.fiu.edu/~andiaa/cg2/chronos.html
-http://www.curatedobject.us/the_curated_object_/2011/01/exhibitions-london-wim-crouwel-a-graphic-odyssey-design-museum-the-curated-object.html
-http://luc.devroye.org/destijl.html
-https://www.pinterest.com/explore/de-stijl
-http://www.modernclassics.com/mc-modern-vs-contemporary.html
-https://pediaview.com/openpedia/Neoplasticism
-http://www.wikiart.org/en/piet-mondrian/mode/all-paintings
-http://www.itc-naarden.org
-http://www.theohistory.org
-http://www.blavatskyarchives.com
-https://www.theosophical.org/theosophy
-https://en.wikipedia.org/wiki/Theosophy
-https://www.artsy.net/article/matthew-how-mondrian-went-abstract
+- [Mondrian & mysticism/ “My long search is over” by Hilton Kramer - The New Criterion](http://www.newcriterion.com/articles.cfm/Mondrian---mysticism---ldquo-My-long-search-is-over-rdquo--4237)
+- [Piet Mondrian - WikiArt.org](http://www.wikiart.org/en/piet-mondrian)
+- [Mondrian Chronos](http://www2.fiu.edu/~andiaa/cg2/chronos.html)
+- [Exhibitions London. Wim Crouwel - A Graphic Odyssey. Design Museum. The Curated Object - The Curated](http://www.curatedobject.us/the_curated_object_/2011/01/exhibitions-london-wim-crouwel-a-graphic-odyssey-design-museum-the-curated-object.html)
+- [De Stijl and type design](http://luc.devroye.org/destijl.html)
+- [De Stijl no Pinterest — Artemisia Gentileschi, Piet Mondrian e Mondrian](https://www.pinterest.com/explore/de-stijl)
+- [Modern Classic Furniture vs. Contemporary Furniture - Modern Classic Furniture - ModernClassics.com](http://www.modernclassics.com/mc-modern-vs-contemporary.html)
+- [De Stijl](https://pediaview.com/openpedia/Neoplasticism)
+- [Piet Mondrian - WikiArt.org](http://www.wikiart.org/en/piet-mondrian/mode/all-paintings)
+- [International Theosophical Centre](http://www.itc-naarden.org)
+- [Theosophical History](http://www.theohistory.org)
+- [Blavatsky Study Center /  Website on H.P. Blavatsky & Theosophy including Blavatsky Archives.](http://www.blavatskyarchives.com)
+- [Theosophical Society in America](https://www.theosophical.org/theosophy)
+- [Theosophy em Wikipedia](https://en.wikipedia.org/wiki/Theosophy)
+- [How Mondrian Went Abstract por Matthew Israel — Artsy](https://www.artsy.net/article/matthew-how-mondrian-went-abstract)

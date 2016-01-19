@@ -2,8 +2,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title }}</title>
-
-    <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,22 +11,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic">
 
+    <link rel="stylesheet" href="/style.css">
+
     <style>
       body {
         background: {{ page.background }};
         color: {{ page.text }};
       }
       a, h1, h2, h3, h4, h5, h6 {
-        color: {{ page.emphasis }} !important;
+        color: {{ page.emphasis }};
       }
-      a:nth-child(5n+1),
-      a:nth-child(11n+1),
-      a:nth-child(13n+1),
-      a:nth-child(17n+1),
-      a:nth-child(29n+1) {
-      	color: {{ page.emphasiss }} !important;
+      a:nth-child(2n+2),
+      a:nth-child(5n+5),
+      a:nth-child(9n+9),
+      a:nth-child(11n+11),
+      a:nth-child(13n+13) {
+      	color: {{ page.emphasiss }};
       }
-      blockquote, figure, hr { border-color: {{ page.borders }} !important; }
+      ul li a {
+        color: {{ page.emphasiss }};
+      }
+      article blockquote, article figure, hr, section, footer { border-color: {{ page.borders }}; }
       {{ page.style }}
     </style>
 </head>
