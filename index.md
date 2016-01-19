@@ -3,6 +3,9 @@ layout: home
 title: Sobre mim
 type: home
 date: 2016-01-09 00:00:00
+text: "rgb(114, 114, 114)"
+emphasis: "rgb(51, 122, 183)"
+borders: "rgb(229, 229, 229)"
 ---
 
 ---
@@ -18,6 +21,5 @@ Eu geralmente mantenho boa parte do meu desenvolvimento no meu [GitHub](http://g
 
 Se você conhece alguma rede social de relevância que eu possa estar é só procurar por Tiago Mergulhão no [Google](https://www.google.com.br/?gfe_rd=cr&ei=w5-TVqjuMMvK8ge6uq7YCg&gws_rd=ssl#q=Tiago+Mergulhão+tmergulhao).
 
-<br>
-
+<!-- <br> -->
 <!-- [Currículo →](/cv.html) -->
