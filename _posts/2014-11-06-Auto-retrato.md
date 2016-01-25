@@ -2,7 +2,8 @@
 layout: blog
 title:  "Auto-retrato"
 date:   2014-11-06 00:00:00
-categories: video
+category: digital painting
+tags: procreate, video, painting, digital painting, ipad
 excerpt_separator: <!--more-->
 ---
 
