@@ -8,6 +8,6 @@ excerpt_separator: <!--more-->
 
 Poster que fiz para uma pesquisa da UnB vinculada ao meu querido Luiz Vilaça, prestes a entrar no mestrado.
 
-![Poster sobre o trabalho](/assets/luiz-belo-monte.jpg)
+{% include figure.html url="luiz-belo-monte.jpg" description="Poster de Belo Monte" caption="Poster de pesquisa sobre a atuação do Ministério Público Federal no caso Belo Monte" %}
 
 Feito usando Sketch — diagramação e gráficos — e Pixelmator — itens pictográficos.
