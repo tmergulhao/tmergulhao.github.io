@@ -4,6 +4,11 @@ title:  "Fábio Felix"
 date:   2015-02-06 14:32:20
 category: fabio-felix
 tags: política, eleições
+excerpt_separator: <!--more-->
+borders: "#A1B3B5"
+background: "#F9F9F9"
+emphasis: "#00ACE9"
+emphasiss: "#EC0186"
 ---
 
 ![Vote](/assets/fabio-felix-vote.png)
