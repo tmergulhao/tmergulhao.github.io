@@ -3,7 +3,7 @@ layout: blog
 title:  "Ambience, initial commit"
 date:   2015-02-22 14:32:20
 tags: interface, reponsividade, luz, Swift, Cocoa, código
-category: ambience
+categories: swift
 ---
 
 Este capítulo se mesclas bastante com o *Tales of a Swift Future* pois o *Ambience* é um Cocoa Framework feito em Swift.

@@ -2,7 +2,7 @@
 layout: blog
 title:  "Advogados e programadores têm muito em comum"
 date:   2015-12-01 00:00:00
-categories: text
+categories: blog
 excerpt_separator: <!--more-->
 ---
 

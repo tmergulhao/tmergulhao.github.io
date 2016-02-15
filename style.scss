@@ -10,21 +10,20 @@ hr {
   border: 0 solid #e5e5e5;
   border-width: 2px 0 0;
 }
-@media print, screen and (max-width: 960px) {
-  section, footer {
-    border: 0 solid #e5e5e5;
-    border-width: 2px 0 0;
+
+ul.post-listing li {
+  margin-bottom: 60px;
+  &:last-child {
+    margin-bottom: 0px;
   }
 }
 
-.hover-list {
-  &:hover {
-    li {
-      opacity: 0.7;
-      &:hover {
-        opacity: 1;
-      }
-    }
+header h3 {
+  white-space: nowrap;
+  span {
+    margin-top: 0px;
+    font-size: 0.8em;
+    float: right;
   }
 }
 
@@ -44,6 +43,17 @@ body {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+}
+
+nav .categories li {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 a {
@@ -90,6 +100,9 @@ article {
     padding-left: $gutter - $border-width;
     margin-left: -$gutter;
   }
+  figure.highlight {
+    border: none;
+  }
   blockquote p, figure figcaption {
     font-style:italic;
     font-weight: 300;
@@ -128,10 +141,9 @@ img {
   max-width:100%;
 }
 
-header {
+header, footer {
   width:270px;
   float:left;
-  position:fixed;
 }
 
 strong {
@@ -151,13 +163,6 @@ small {
 
 hr {
   margin-bottom: 20px;
-}
-
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
 }
 
 @media print, screen and (max-width: 960px) {

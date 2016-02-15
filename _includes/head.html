@@ -18,7 +18,10 @@
         background: {{ page.background }};
         color: {{ page.text }};
       }
-      a, h1, h2, h3, h4, h5, h6 {
+      a {
+        color: {{ page.emphasis }};
+      }
+      a:hover {
         color: {{ page.emphasis }};
       }
       a:nth-child(2n+2),

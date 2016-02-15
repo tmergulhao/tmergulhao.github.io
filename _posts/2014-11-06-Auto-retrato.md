@@ -2,7 +2,7 @@
 layout: blog
 title:  "Auto-retrato"
 date:   2014-11-06 00:00:00
-category: digital painting
+categories: painting
 tags: procreate, video, painting, digital painting, ipad
 excerpt_separator: <!--more-->
 ---
@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
 Já faz algum tempo que eu fiz esse retrato para testar a forma humana.
 Sempre quis desenhar uma pessoa mas acho deselegante desfigurar alguém.
 Resolvi desfigurar a mim.
+
+<!--more-->
 
 {% include figure.html url="retrato-corrigido.jpg" description="Retrato corrigido" caption="Imagem feita usando Procreate e corrigida usando Pixelmator." %}
 

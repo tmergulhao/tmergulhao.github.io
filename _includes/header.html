@@ -1,21 +1,22 @@
-<header>
-  <h1><a href="/">tmergulhao</a></h1>
-  </br>
-
-  {% for page in site.pages %}
-  {% if page.layout == "home" %}
-    {{ page.content | markdownify }}
+<header class="clearfix">
+  {% if page.type != "home" %}
+    <h3>tmergulhao<a href="/{{ page.category }}">/{{ page.category }}</a><a href="/"><span class="back">↰</span></h3>
+  {% else %}
+    <h3></a>tmergulhao<a href="/"><span class="back">↰</span></h3>
   {% endif %}
-  {% endfor %}
+
+  <hr>
 
   <nav>
-    <ul class="list-unstyled hidden">
-      {% for page in site.pages %}
-        {% if page.date == null %}
-        {% else %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+    <ul class="categories list-unstyled">
+    {% for category in site.categories %}
+        <li><a href="/{{category | first | slugify}}/">
+            /{{ category | first }}
+            <span class="badge hidden">
+            {{ category | last | size }}
+            </span>
+        </a></li>
+    {% endfor %}
     </ul>
   </nav>
 </header>

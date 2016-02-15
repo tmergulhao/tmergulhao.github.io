@@ -2,7 +2,7 @@
 layout: blog
 title:  "Fábio Felix"
 date:   2015-02-06 14:32:20
-category: fabio-felix
+categories: design
 tags: política, eleições
 excerpt_separator: <!--more-->
 borders: "#A1B3B5"
@@ -12,6 +12,8 @@ emphasiss: "#EC0186"
 ---
 
 ![Vote](/assets/fabio-felix-vote.png)
+
+<!--more-->
 
 É com muita alegria que digo que trabalhei na campanha política de Fábio Felix nesse 2014.
 Foi pouco mais de um mês de correria, suor, desespero e muita felicidade.

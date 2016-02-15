@@ -3,8 +3,7 @@ layout: blog
 title:  "Tales of a Swift future"
 sub: "The extension thing"
 date:   2014-11-09 14:32:20
-tags: Swift, code
-category: swift
+categories: swift
 ---
 
 Today I was working on Swift as I’ve done for the late our of next week and while doing the all the examples in the Apple given documentation I encountered something boggling.

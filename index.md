@@ -1,13 +1,9 @@
 ---
 layout: home
-title: Sobre mim
 type: home
-date: 2016-01-09 00:00:00
 text: "rgb(114, 114, 114)"
 emphasis: "rgb(51, 122, 183)"
 borders: "rgb(229, 229, 229)"
----
-
 ---
 
 ### TL;DR <small class="hover-only">too long; didn't read</small>

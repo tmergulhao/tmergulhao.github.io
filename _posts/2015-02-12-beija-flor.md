@@ -2,8 +2,8 @@
 layout: blog
 title:  "Beija-flor"
 date:   2015-02-12 10:00:00
+categories: painting
 tags: lapis, beija-flor, procreate
-category: rebound
 ---
 
 Faz pouco tempo que eu não fui aprovado no vestibular de Design da USP.

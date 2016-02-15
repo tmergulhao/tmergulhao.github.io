@@ -18,6 +18,8 @@ style: |
 
 > “Mondrian’s absolutist aesthetic of abstraction”
 
+<!--more-->
+
 <figure class="alignright"><img src="http://c300221.r21.cf1.rackcdn.com/piet-mondrian-truncated-view-of-the-broekzijder-mill-on-the-gein-wings-facing-west-c-1902-03-or-earlier-oil-on-canvas-mounted-on-cardboard-1368405931_b.jpg"><figcaption>1902-03, Piet Mondrian, Truncated view of the broekzijder mill on the gein wings facing west</figcaption></figure>
 
 Ao falar de *De Stijl* e dos movimentos artísticos do fim do século XVIII e XIX trabalhamos com todo espectro de desenvolvimento humano. Como na Renascença, o avanço artístico esteve amplamente ligado ao avanço da religião, filosofia e ciência. O limiar do que era realizado na arte estava destro das possibilidades técnicas que a sociedade dispunha bem como seu avanço ideológico. Neste texto a saga de libertação da natureza e do realismo até o abstrato pode ser observado pelo caminho de um artista. As escolhas e dúvidas que Mondrian tinha naquela época talvez sejam reflexo do avanço da sociedade na perspectiva de um ator de vanguarda, exemplificando as questões que lideraram a comunidade artística.
