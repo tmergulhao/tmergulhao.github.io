@@ -1,13 +1,15 @@
 <header class="clearfix">
   {% if page.type != "home" %}
-    <h3>tmergulhao<a href="/{{ page.category }}">/{{ page.category }}</a><a href="/"><span class="back">↰</span></h3>
+    <a href="/">↰ voltar ao início</a>
+    </br>
+    <h3>tmergulhao<a href="/{{ page.categories }}">/{{ page.categories }}</a></h3>
   {% else %}
-    <h3></a>tmergulhao<a href="/"><span class="back">↰</span></h3>
+    <h3>tmergulhao</h3>
   {% endif %}
-
   <hr>
 
   <nav>
+
     <ul class="categories list-unstyled">
     {% for category in site.categories %}
         <li><a href="/{{category | first | slugify}}/">

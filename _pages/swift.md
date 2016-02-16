@@ -1,6 +1,6 @@
 ---
 layout: category
-category: swift
+categories: swift
 permalink: /swift/
 emphasis: "rgb(255, 52, 15)"
 ---

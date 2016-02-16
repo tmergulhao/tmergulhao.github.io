@@ -1,6 +1,6 @@
 ---
 layout: category
-category: geometria
+categories: geometria
 permalink: /geometria/
 emphasis: "hsl(207, 9%, 43%)"
 ---

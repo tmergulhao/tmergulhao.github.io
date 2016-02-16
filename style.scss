@@ -18,15 +18,6 @@ ul.post-listing li {
   }
 }
 
-header h3 {
-  white-space: nowrap;
-  span {
-    margin-top: 0px;
-    font-size: 0.8em;
-    float: right;
-  }
-}
-
 .hover-only {
   display: none;
 }
@@ -178,7 +169,6 @@ hr {
   }
   section, footer {
     padding:20px 0;
-    margin:0 0 $gutter;
   }
 }
 

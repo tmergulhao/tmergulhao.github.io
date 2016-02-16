@@ -1,6 +1,6 @@
 ---
 layout: category
-category: blog
+categories: blog
 permalink: /blog/
 emphasis: "#303030"
 ---

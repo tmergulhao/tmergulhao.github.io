@@ -9,7 +9,7 @@ layout: default
 </article>
 
 <ul class="list-unstyled post-listing">
-  {% for post in site.categories[page.category] %}
+  {% for post in site.categories[page.categories] %}
     {% include post-listing.html %}
   {% endfor %}
 </ul>
