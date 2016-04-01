@@ -47,9 +47,10 @@ Não haveria mais raiva, mais ódio, mais vingança.
 Era só uma fase para que todos dessem uma parada e bebessem um copo d’água; talvez até lembrassem de respirar e aproveitar, afinal de contas aquilo era um dia!
 
 Saindo do amarelo sangrou um vermelho rasgando o que restava de azul no céu.
-Como batidas de um sino os corações nasceu um esmeralda pulsando como uma linha no horizonte.
+Como batidas de um sino, dos corações nasceu um esmeralda pulsando na linha do horizonte.
 Era inevitável olhar para o céu naquela hora.
-Infelizmente o dia tinha que parar e ninguém teria escolha. O céu pedia “altas!”.
+Infelizmente o dia tinha que parar e ninguém teria escolha.
+O céu pedia “altas!”.
 Com as baterias já em 5%, os desengonçados, por uma vez esqueceram seus carregadores externos e foram fisgados pelo interesse genético de olhar o pôr-do-sol.
 
 Eu lembrei da minha cadela na infância, da minha vida, das pessoas, do dia-a-dia.
