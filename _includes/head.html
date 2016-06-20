@@ -3,13 +3,14 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    
+    {% if jekyll.environment == "development" %}
+		{% include dependencies.html %}
+	{% endif %}
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic">
+	{% if jekyll.environment == "production" %}
+		{% include cdn.html %}
+	{% endif %}
 
     <link rel="stylesheet" href="/style.css">
     

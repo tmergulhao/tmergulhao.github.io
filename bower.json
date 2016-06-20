@@ -1,0 +1,23 @@
+{
+  "name": "tmergulhao.com",
+  "description": "Tiago's personal website",
+  "main": "index.md",
+  "authors": [
+    "tmergulhao"
+  ],
+  "license": "MIT",
+  "homepage": "http://tmergulhao.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "d3": "^3.5.17",
+    "font-awesome": "^4.6.3"
+  }
+}
