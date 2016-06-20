@@ -16,6 +16,14 @@
     {% if page.layout == "blog" %}
     	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     {% endif%}
+    
+    {% if page.script %}
+    	<script src="{{ page.script | prepend: '/javascript/' | prepend: site.baseurl }}.js" defer></script>
+    {% endif %}
+    
+    <script src="{{ 'script.js' | prepend: '/javascript/' | prepend: site.baseurl }}" defer></script>
+
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" defer></script>
 
     <style>
       body {
