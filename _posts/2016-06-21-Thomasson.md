@@ -23,7 +23,7 @@ Um exemplo disso foi o modernismo;, os seus conceitos de concreto construíram B
 A limpeza do branco e das curvas faz com que pequenas alterações se tornem grandes verrugas.
 Algumas dessas imperfeições são rapidamente removidas mas, em lugares menos favorecidos, passam a compor o dicionário de expectativas arquitetônicas.
 
-A arquitetura do resquício e abandono faz parte do cenário do Distrito FederalDF, principalmente nas cidades satélites e locais marginalizados.
+A arquitetura do resquício e abandono faz parte do cenário do Distrito Federal, principalmente nas cidades satélites e locais marginalizados.
 A parte de trástraz do comércio da W3 é uma fina crosta de favela no meio da cidade, pequenos abandonos e demolições, algumas reformas mal estruturadas e não autorizadas.
 Outros cenários como Vicente Pires, Ceilândia, Vila Planalto e vários monumentos da República estão adornados com esses pequenos símbolos do que foi esquecido.
 
