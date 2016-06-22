@@ -12,3 +12,13 @@ if navigator.userAgent.match(/iPhone/i)
 gestureStart = () ->
   meta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6" for meta in metas when meta.name is 'viewport'
   return
+
+$('h3')
+	.click () ->
+		$ @
+			.children '.hidden'
+				.removeClass 'hidden'
+	.hover () ->
+		$ @
+			.children '.hidden'
+				.removeClass 'hidden'

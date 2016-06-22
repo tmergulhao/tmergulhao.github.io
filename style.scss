@@ -18,13 +18,6 @@ ul.post-listing li {
   }
 }
 
-.hover-only {
-  display: none;
-}
-*:hover > .hover-only {
-  display: inline;
-}
-
 body {
   padding: 30px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;

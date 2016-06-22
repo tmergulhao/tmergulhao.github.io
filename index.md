@@ -6,7 +6,7 @@ emphasis: "rgb(51, 122, 183)"
 borders: "rgb(229, 229, 229)"
 ---
 
-### TL;DR <small class="hover-only">too long; didn't read</small>
+### TL;DR <small class="hidden">too long; didn't read</small>
 
 Sou Tiago Mergulhão, estudante de Design na Univerdiade de Brasília.
 Gosto trabalhar com design de interação e interface gráfica.
