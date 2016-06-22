@@ -24,7 +24,7 @@ A limpeza do branco e das curvas faz com que pequenas alterações se tornem gra
 Algumas dessas imperfeições são rapidamente removidas mas, em lugares menos favorecidos, passam a compor o dicionário de expectativas arquitetônicas.
 
 A arquitetura do resquício e abandono faz parte do cenário do Distrito Federal, principalmente nas cidades satélites e locais marginalizados.
-A parte de trástraz do comércio da W3 é uma fina crosta de favela no meio da cidade, pequenos abandonos e demolições, algumas reformas mal estruturadas e não autorizadas.
+A parte de trás do comércio da W3 é uma fina crosta de favela no meio da cidade, pequenos abandonos e demolições, algumas reformas mal estruturadas e não autorizadas.
 Outros cenários como Vicente Pires, Ceilândia, Vila Planalto e vários monumentos da República estão adornados com esses pequenos símbolos do que foi esquecido.
 
 Thomasson é o nome do jogador de baseball cujo trabalho inspirou o artista japonês Akasegawa Genpei.
