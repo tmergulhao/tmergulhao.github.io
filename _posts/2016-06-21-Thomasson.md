@@ -30,7 +30,7 @@ Outros cenários como Vicente Pires, Ceilândia, Vila Planalto e vários monumen
 Thomasson é o nome do jogador de baseball cujo trabalho inspirou o artista japonês Akasegawa Genpei.
 O esportista sequer marcava um ponto para seu time no entanto mantido, notoriamente, inútil.
 
-Fotos a seguir por Tiago Mergulhão e Diego Flausino.
+Fotos a seguir por Tiago Mergulhão e [Diego Flauzino](http://flauzino.com).
 
 ![Year Walk](/assets/thomasson-escada-1.jpg)
 
