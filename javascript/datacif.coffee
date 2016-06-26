@@ -27,59 +27,33 @@ d3
 		if error
 			throw error
 
-		cif.children = cif.sections
-		cif.children.forEach (section, i, sections) ->
-			section.children = section.chapters
-			section.children.forEach (chapter, i, chapters) ->
-				chapter.namespace = section.namespace
-				if chapter.subchapters != undefined
-					chapter.children = chapter.subchapters
-					chapter.children.forEach (subchapter, i, subchapters) ->
-						subchapter.namespace = section.namespace
-						if subchapter['qualifiers-1'] != undefined
-							subchapter.children = subchapter['qualifiers-1']
+		namespace = undefined
 
-							subchapter.children.forEach (qual1, i, qual1s) ->
-								qual1.namespace = section.namespace
-								if qual1['qualifiers-2'] != undefined
-									qual1.children = qual1['qualifiers-2']
+		makeTree = (node, i, siblings) ->
+			if node.namespace != undefined
+				namespace = node.namespace
+			else if namespace != undefined
+				node.namespace = namespace
 
-									qual1.children.forEach (qual2, i, qual2s) ->
-										qual2.namespace = section.namespace
-										if qual2['qualifiers-3'] != undefined
-											qual2.children = qual2['qualifiers-3']
+			node.children = ["sections", "chapters", "subchapters", "qualifiers-1", "qualifiers-2", "qualifiers-3", "qualifiers-4"]
+				.reduce (prev, a, i, as) ->
+					prev = node[a] if node[a] != undefined
+					return prev
+				, undefined
 
-											qual2.children.forEach (qual3, i, qual3s) ->
-												qual3.namespace = section.namespace
-												if qual3['qualifiers-4'] != undefined
-													qual3.children = qual3['qualifiers-4']
+			node.children.forEach makeTree if node.children != undefined
 
-													qual3.children.forEach (qual4, i, qual4s) ->
-														qual4.namespace = section.namespace
-														if qual4['qualifiers-4'] != undefined
-															qual4.children = qual4['qualifiers-4']
-				if chapter['qualifiers-1'] != undefined
-					chapter.children = chapter['qualifiers-1']
+			return node.children
 
-					chapter.children.forEach (qual1, i, qual1s) ->
-						qual1.namespace = section.namespace
-						if qual1['qualifiers-2'] != undefined
-							qual1.children = qual1['qualifiers-2']
+		cif.children = makeTree cif, 0, undefined
 
-							qual1.children.forEach (qual2, i, qual2s) ->
-								qual2.namespace = section.namespace
-								if qual2['qualifiers-3'] != undefined
-									qual2.children = qual2['qualifiers-3']
-
-									qual2.children.forEach (qual3, i, qual3s) ->
-										qual3.namespace = section.namespace
-										if qual3['qualifiers-4'] != undefined
-											qual3.children = qual3['qualifiers-4']
-
-											qual3.children.forEach (qual4, i, qual4s) ->
-												qual4.namespace = section.namespace
-												if qual4['qualifiers-4'] != undefined
-													qual4.children = qual4['qualifiers-4']
+		svg = d3.select ".complexity-graph.cif .fig-canvas"
+			.append "svg"
+				.attr "class", "center-block"
+			    .attr "width", diameter
+			    .attr "height", diameter # - 150
+				.append "g"
+			    	.attr "transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")"
 
 		nodes = tree.nodes cif
 		links = tree.links nodes
