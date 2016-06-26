@@ -1,0 +1,39 @@
+article {
+  & > * {
+    margin-bottom: 20px;
+  }
+  figure {
+    padding: 10px 0 10px;
+    margin-bottom: 20px !important;
+    img {
+	    width: 100%;
+	    max-width: 100%;
+    }
+    img, svg {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+    }
+    figcaption {
+      margin:0;
+      margin-top: 10px;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  blockquote, figure {
+    border-left: $border-width solid #e5e5e5;
+    color: rgb(119, 119, 119);
+    padding-left: $gutter - $border-width;
+    margin-left: -$gutter;
+  }
+  figure.highlight {
+    border: none;
+  }
+  blockquote p, figure figcaption {
+    font-style:italic;
+    font-weight: 300;
+  }
+}

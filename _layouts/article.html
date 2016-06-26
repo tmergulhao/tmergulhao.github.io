@@ -1,0 +1,46 @@
+---
+layout: compress
+---
+<!doctype html><html>
+
+{% include head.html %}
+
+<body class="article"><div class="center-block">
+
+<header class="clearfix">
+
+  {% if page.type != "home" %}
+    <a href="/">↰ voltar ao início</a>
+    </br>
+    <h3>tmergulhao<a href="/{{ page.categories }}">/{{ page.categories }}</a></h3>
+  {% else %}
+    <h3>tmergulhao</h3>
+  {% endif %}
+  <hr>
+
+</header>
+
+<section>
+
+<article class="{{ page.categories }}">
+
+	<header>
+		<h1>{{ page.title }}<small style="display:block"></small></h1>
+		<p>por {{ page.authors }}</p>
+  	</header>
+  
+	<div class="center-block excerpt">
+		<p>Resumo</p>
+		<p>{{ page.excerpt }}</p>
+	</div>
+
+  {{ content }}
+
+</article>
+
+</section>
+
+</div>
+
+</body>
+</html>

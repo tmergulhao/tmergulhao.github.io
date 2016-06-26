@@ -1,0 +1,9 @@
+---
+---
+
+ul.post-listing li {
+  margin-bottom: 60px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}

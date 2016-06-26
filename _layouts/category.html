@@ -5,11 +5,11 @@ layout: default
 <!-- Courtesy of Brad West http://bradonomics.com/jekyll-categories/ -->
 
 <article>
-  {{ content }}
+	{{ content }}
 </article>
 
 <ul class="list-unstyled post-listing">
-  {% for post in site.categories[page.categories] %}
-    {% include post-listing.html %}
-  {% endfor %}
+	{% for post in site.categories[page.categories] %}
+		{% include post-listing.html %}
+	{% endfor %}
 </ul>

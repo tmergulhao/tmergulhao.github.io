@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="{{ 'style.css' | prepend: '/stylesheets/' | prepend: site.baseurl }}">
     <script src="{{ 'script.js' | prepend: '/javascript/' | prepend: site.baseurl }}" defer></script>
     
-    {% if page.layout == "blog" %}
-    	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    {% endif%}
-    
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="{{ page.layout | prepend: '/stylesheets/' | prepend: site.baseurl }}.css">
+
     {% if page.script %}
     	<script src="{{ page.script | prepend: '/javascript/' | prepend: site.baseurl }}.js" defer></script>
     {% endif %}

@@ -49,7 +49,6 @@ table tr {
 	.node circle {
 	  fill: gray;
 	  stroke: none;
-// 	  &.minor { opacity: 0.6; }
 	  &.group { stroke: gray; stroke-width: 1.5px; }
 	}
 	
