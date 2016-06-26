@@ -7,7 +7,7 @@
 diameter = 500
 
 tree = d3.layout.tree()
-    .size [360, diameter / 2 - 10]# - 120]
+    .size [360, diameter / 2 - 3]# - 120]
     .separation (a, b) ->
     	(a.parent == b.parent ? 1 : 2) / a.depth
 
@@ -42,9 +42,8 @@ d3
 
 		svg = d3.select ".complexity-graph.cif .fig-canvas"
 			.append "svg"
-				.attr "class", "center-block"
-			    .attr "width", diameter
-			    .attr "height", diameter # - 150
+				.attr "viewBox", "0 0 " + diameter + " " + diameter
+				.attr "preserveAspectRatio", "xMidYMid meet"
 				.append "g"
 			    	.attr "transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")"
 
@@ -93,8 +92,8 @@ d3
 		cif.children.forEach (section, i, sections) ->
 			svg = d3.select ".complexity-graph.namespace-" + section.namespace + " .fig-canvas"
 				.append "svg"
-				    .attr "width", diameter
-				    .attr "height", diameter # - 150
+				    .attr "viewBox", "0 0 " + diameter + " " + diameter
+					.attr "preserveAspectRatio", "xMidYMid meet"
 					.append "g"
 				    	.attr "transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")"
 
