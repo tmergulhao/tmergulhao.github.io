@@ -1,0 +1,64 @@
+---
+---
+
+ul {
+	list-style: none;
+	padding-left: 15px;
+}
+
+.knob {
+	width: 10px;
+	height: 5px;
+	background-color: gray;
+	border: 1px solid gray;
+}
+
+table tr {
+
+	&:nth-child(1) td:nth-child(4) { color: green; }
+	&:nth-child(2) td:nth-child(4) { color: #B6CA12; }
+	&:nth-child(3) td:nth-child(4) { color: orange; }
+	&:nth-child(4) td:nth-child(4) { color: red; }
+	&:nth-child(5) td:nth-child(4) { color: #CF3C10; }
+	&:nth-child(6) td:nth-child(4) { color: blue; }
+	&:nth-child(7) td:nth-child(4) { color: gray; }
+	
+	&:nth-child(1) td:nth-child(5) { color: #FFE2E2; }
+	&:nth-child(2) td:nth-child(5) { color: #FF9B9B; }
+	&:nth-child(3) td:nth-child(5) { color: #FF7373; }
+	&:nth-child(4) td:nth-child(5) { color: #FF4949; }
+	&:nth-child(5) td:nth-child(5) { color: #FF1E1E; }
+	&:nth-child(6) td:nth-child(5) { color: #DAF5E2; }
+	&:nth-child(7) td:nth-child(5) { color: #92E1AA; }
+	&:nth-child(8) td:nth-child(5) { color: #64D487; }
+	&:nth-child(9) td:nth-child(5) { color: #34C761; }
+	&:nth-child(10) td:nth-child(5) { color: #02B93A; }
+	&:nth-child(11) td:nth-child(5) { color: blue; }
+	&:nth-child(12) td:nth-child(5) { color: blue; }
+	&:nth-child(13) td:nth-child(5) { color: gray; }
+
+}
+
+.complexity-graph {
+	.node.namespace-d circle { fill: #9B9B9B; }
+	.node.namespace-b circle { fill: #FFE02F; }
+	.node.namespace-e circle { fill: #4A90E2; }
+	.node.namespace-s circle { fill: #3ACCA1; }
+
+	.node circle {
+	  fill: gray;
+	  stroke: steelblue;
+	  stroke-width: 1.5px;
+	  stroke: none;
+	}
+	
+	.node {
+	  font: 10px sans-serif;
+	}
+	
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 1.5px;
+	}
+}
