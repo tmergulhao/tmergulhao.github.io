@@ -40,16 +40,17 @@ table tr {
 }
 
 .complexity-graph {
-	.node.namespace-d circle { fill: #9B9B9B; }
-	.node.namespace-b circle { fill: #FFE02F; }
-	.node.namespace-e circle { fill: #4A90E2; }
-	.node.namespace-s circle { fill: #3ACCA1; }
+	$index: 20%;
+	.node.namespace-d circle { fill: #FF58C5; &.minor { fill: lighten(#FF58C5, $index); } &.group { stroke: darken(#FF58C5, $index); } }
+	.node.namespace-b circle { fill: #FFE02F; &.minor { fill: lighten(#FFE02F, $index); } &.group { stroke: darken(#FFE02F, $index); } }
+	.node.namespace-e circle { fill: #4A90E2; &.minor { fill: lighten(#4A90E2, $index); } &.group { stroke: darken(#4A90E2, $index); } }
+	.node.namespace-s circle { fill: #3ACCA1; &.minor { fill: lighten(#3ACCA1, $index); } &.group { stroke: darken(#3ACCA1, $index); } }
 
 	.node circle {
 	  fill: gray;
-	  stroke: steelblue;
-	  stroke-width: 1.5px;
 	  stroke: none;
+// 	  &.minor { opacity: 0.6; }
+	  &.group { stroke: gray; stroke-width: 1.5px; }
 	}
 	
 	.node {

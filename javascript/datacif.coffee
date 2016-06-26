@@ -15,15 +15,8 @@ diagonal = d3.svg.diagonal.radial()
     .projection (d) ->
     	[d.y, d.x / 180 * Math.PI]
 
-svg = d3.select "div.complexity-graph.cif"
-	.append "svg"
-	    .attr "width", diameter
-	    .attr "height", diameter # - 150
-		.append "g"
-	    	.attr "transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")"
-
 d3
-	.json "{{ "datacif-cif-prototype.json" | prepend: "assets/" | prepend: site.baseurl }}", (error, cif) ->
+	.json "{{ "datacif-cif-prototype.json" | prepend: "/assets/" | prepend: site.baseurl }}", (error, cif) ->
 		if error
 			throw error
 
@@ -78,7 +71,14 @@ d3
 
 		node
 			.append	"circle"
-			.attr "r", 4.5
+				.attr "r", (d) ->
+					lastDigit = (+d.code)%10
+					return 2.5 if lastDigit is 9 or lastDigit is 8
+					return 3.5
+				.attr "class", (d) ->
+					return "group" if d.code == undefined
+					lastDigit = (+d.code)%10
+					return "minor" if lastDigit is 9 or lastDigit is 8
 
 # 		node
 # 			.append "text"
@@ -90,8 +90,8 @@ d3
 # 				.text (d) ->
 # 					d.name
 
-		cif.sections.map (section, i, sections) ->
-			svg = d3.select "div.complexity-graph.namespace-" + section.namespace
+		cif.children.forEach (section, i, sections) ->
+			svg = d3.select ".complexity-graph.namespace-" + section.namespace + " .fig-canvas"
 				.append "svg"
 				    .attr "width", diameter
 				    .attr "height", diameter # - 150
@@ -121,7 +121,16 @@ d3
 
 			node
 				.append	"circle"
-				.attr "r", 4.5
+				.attr "r", (d) ->
+					lastDigit = (+d.code)%10
+					return 2.5 if lastDigit is 9 or lastDigit is 8
+					return 3.5
+				.attr "class", (d) ->
+					return "group" if d.code == undefined
+					lastDigit = (+d.code)%10
+					return "minor" if lastDigit is 9 or lastDigit is 8
+
+			return
 
 d3
 	.select self.frameElement
