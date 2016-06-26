@@ -1,4 +1,8 @@
-<figure>
-  <img src="/assets/{{ include.url }}" alt="{{ include.description }}" />
-  <figcaption>{{ include.caption | markdownify }}</figcaption>
+<figure class="{{ include.class }}">
+	{% if include.url %}
+		<img src="/assets/{{ include.url }}" alt="{{ include.description }}" />
+	{% else %}
+		<div class="fig-canvas center-block"></div>
+	{% endif %}
+	<figcaption>{{ include.caption | markdownify }}</figcaption>
 </figure>
