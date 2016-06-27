@@ -22,3 +22,11 @@ $('h3')
 		$ @
 			.children '.hidden'
 				.removeClass 'hidden'
+
+$ '.gif img'
+	.click () ->
+		imgElement = $(@)
+		src = imgElement.attr 'src'
+		imgElement.attr 'src', ' '
+		imgElement.attr 'src', src
+		return
