@@ -50,7 +50,7 @@ De esta forma, mis planes a corto plazo son aprovechar académicamente y profesi
 - Framer Studio
 - Flinto
 - Xcope
-- Adobe Photoshop y Illustrator
+- Adobe Photoshop e Illustrator
 - Affinity Designer y Photo
 
 #### Programación
