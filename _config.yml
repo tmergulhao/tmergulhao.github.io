@@ -24,5 +24,8 @@ collections:
   data:
     output: true
     permalink: /data/:path
+  images:
+    output: true
+    permalink: /images/:path
   stylesheets:
     output: false
