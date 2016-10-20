@@ -20,6 +20,8 @@ compress_html:
 
 gems:
  - jekyll-coffeescript
+ - jekyll-admin
+
 collections:
   data:
     output: true
