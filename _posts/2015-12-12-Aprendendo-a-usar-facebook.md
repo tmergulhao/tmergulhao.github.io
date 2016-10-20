@@ -22,7 +22,7 @@ Poster que fiz em 2 dias dentre as 0 horas e 6 da manhã para meu querido Luiz V
 
 Eu me importo muito com política e mídias digitais e participar de um trabalho que estuda a relevância do movimento político estudantil na América Latina fazendo um paralelo com o Brasil será sempre uma honra.
 
-[![Poster](/assets/luiz-facebook-poster.jpg)](/assets/luiz-facebook-poster.png)
+[![Poster](/images/luiz-facebook-poster.jpg)](/images/luiz-facebook-poster.png)
 
 Eu confeccionei todos os gráficos usando somente o Illustrator.
 Preferia ter usado o InDesign mas o El Capitan não é compatível ainda…

@@ -6,7 +6,7 @@ categories: design
 excerpt: |
   Poster que fiz para uma pesquisa da UnB vinculada ao meu querido Luiz Vilaça, prestes a entrar no mestrado.
 
-  ![Pré-vizualização do poster](/assets/luiz-belo-monte-cover.jpg)
+  ![Pré-vizualização do poster](/images/luiz-belo-monte-cover.jpg)
 ---
 
 Poster que fiz para uma pesquisa da UnB vinculada ao meu querido Luiz Vilaça, prestes a entrar no mestrado.

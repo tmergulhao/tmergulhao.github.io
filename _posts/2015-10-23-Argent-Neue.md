@@ -12,11 +12,11 @@ Em um *sprint* bem rápido foi pedido à mim fazer o meu terceiro tema para Word
 
 O Argento Neue é um fork do Argent pela Automattic — holder do Wordpress.com — que foi adaptado para a minha visão gráfica. Esse wireframe depois foi refinado para traduzir um estilo mais textual. Na verdade a necessidade de produção contínua de imagens para o cabeçalho foi deixada de lado.
 
-[<img src="/assets/argent-v01.jpeg" class="img-responsive" style="margin-top:0 !important;"/>]("/assets/argent-v01.png")
+[<img src="/images/argent-v01.jpeg" class="img-responsive" style="margin-top:0 !important;"/>]("/images/argent-v01.png")
 
 Primeiro <em>wireframe</em> feito usando mais imagens tentando expressar o estilo gráfico.
 
-[<img src="/assets/argent-wireframe.jpeg" class="img-responsive"/>]("/assets/argent-wireframe.png")
+[<img src="/images/argent-wireframe.jpeg" class="img-responsive"/>]("/images/argent-wireframe.png")
 
 Segundo <em>wireframe</em> feito usando mais texto e elementos.
 

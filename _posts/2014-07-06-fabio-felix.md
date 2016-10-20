@@ -11,7 +11,7 @@ emphasis: "#00ACE9"
 emphasiss: "#EC0186"
 ---
 
-![Vote](/assets/fabio-felix-vote.png)
+![Vote](/images/fabio-felix-vote.png)
 
 <!--more-->
 
@@ -28,20 +28,20 @@ Me considero honrado por ter participado de discussões e ter feito as peças qu
 
 {% include figure.html url="fabio-felix-armario.png" description="Vote pelas cores do Brasil" caption="Vote pelas cores do Brasil. Todas elas." %}
 
-![Capital Viva](/assets/fabio-felix-capital-viva.png)
+![Capital Viva](/images/fabio-felix-capital-viva.png)
 
-![Cultura](/assets/fabio-felix-cultura.png)
+![Cultura](/images/fabio-felix-cultura.png)
 
-![Dia Nacional da Visibilidade](/assets/fabio-felix-visibilidade.png)
+![Dia Nacional da Visibilidade](/images/fabio-felix-visibilidade.png)
 
-![Feijoada](/assets/fabio-felix-feijoada.png)
+![Feijoada](/images/fabio-felix-feijoada.png)
 
-![Isoporzinho](/assets/fabio-felix-isoporzinho.png)
+![Isoporzinho](/images/fabio-felix-isoporzinho.png)
 
-![Deficientes](/assets/fabio-felix-deficientes.png)
+![Deficientes](/images/fabio-felix-deficientes.png)
 
-![Mobilidade Urbana](/assets/fabio-felix-mobilidade-urbana.png)
+![Mobilidade Urbana](/images/fabio-felix-mobilidade-urbana.png)
 
-![Moradia](/assets/fabio-felix-moradia.png)
+![Moradia](/images/fabio-felix-moradia.png)
 
-![Obrigado Psicólogos](/assets/fabio-felix-psi.png)
+![Obrigado Psicólogos](/images/fabio-felix-psi.png)

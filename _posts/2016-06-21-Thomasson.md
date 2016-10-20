@@ -32,15 +32,15 @@ O esportista sequer marcava um ponto para seu time no entanto mantido, notoriame
 
 Fotos a seguir por Tiago Mergulhão e [Diego Flauzino](http://flauzino.com).
 
-![Year Walk](/assets/thomasson-escada-1.jpg)
+![Year Walk](/images/thomasson-escada-1.jpg)
 
-![Year Walk](/assets/thomasson-escada-2.jpg)
+![Year Walk](/images/thomasson-escada-2.jpg)
 
-![Year Walk](/assets/thomasson-porta-1.jpg)
+![Year Walk](/images/thomasson-porta-1.jpg)
 
-![Year Walk](/assets/thomasson-porta-2.jpg)
+![Year Walk](/images/thomasson-porta-2.jpg)
 
-![Year Walk](/assets/thomasson-sanitario.jpg)
+![Year Walk](/images/thomasson-sanitario.jpg)
 
 ## Referências
 
