@@ -2,10 +2,12 @@ title: "tmergulhao"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tmergulhao.com/" # the base hostname & protocol for your site
 permalink: /:categories/:title
-include: ['_pages']
+include: ['_pages', '_javascript', '_stylesheets']
+exclude: ["bower_components", "node_modules", "CNAME", "bower.json", "package.json", "params.json", '_stylesheets/includes']
 
 sass:
     style:			:compressed
+    sass_dir:       _stylesheets/includes
 
 # HTML compressor http://jch.penibelst.de
 compress_html:
@@ -17,3 +19,6 @@ compress_html:
 
 gems:
  - jekyll-coffeescript
+collections:
+  stylesheets:
+    output: false

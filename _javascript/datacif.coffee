@@ -1,4 +1,6 @@
 ---
+permalink: '/javascript/datacif.js'
+published: false
 ---
 
 # Radial Reingold–Tilford Tree
@@ -16,7 +18,7 @@ diagonal = d3.svg.diagonal.radial()
     	[d.y, d.x / 180 * Math.PI]
 
 d3
-	.json "{{ "datacif-cif-prototype.json" | prepend: "/assets/" | prepend: site.baseurl }}", (error, cif) ->
+	.json "{{ "datacif-cif-prototype.json" | prepend: "/data/" | prepend: site.baseurl }}", (error, cif) ->
 		if error
 			throw error
 

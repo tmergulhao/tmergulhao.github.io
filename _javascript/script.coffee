@@ -1,4 +1,5 @@
 ---
+permalink: '/javascript/script.js'
 ---
 
 # scale.fix.js

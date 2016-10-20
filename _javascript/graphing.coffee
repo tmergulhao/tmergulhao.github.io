@@ -1,4 +1,6 @@
 ---
+permalink: '/javascript/graphing.js'
+published: false
 ---
 
 dsv = d3.dsv ";", "text/plain"
@@ -7,7 +9,7 @@ dsv = d3.dsv ";", "text/plain"
 # 	console.log graphData
 # 	return
 
-dsv "{{ "/assets/graphing.csv" | prepend: site.baseurl }}", (error, data) ->
+dsv "{{ "/data/graphing.csv" | prepend: site.baseurl }}", (error, data) ->
 
 	prev =
 		y12011: 0
