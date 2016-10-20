@@ -1,14 +1,14 @@
 ---
+title: Presentación iOS
 layout: blog
-title:  "Presentación iOS"
-date:   2016-10-04
+date: '2016-10-04'
 categories: blog
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 borders: "#A1B3B5"
 background: "#F2F2F2"
 emphasis: "#DE4730"
 emphasiss: "#508084"
-permalink: /presentacion-ios
+permalink: "/presentacion-ios"
 style: |
   ul {
     list-style: none;
@@ -29,7 +29,7 @@ style: |
   }
 ---
 
-Soy un estudiante de Diseño de la Universidad de Brasília, me encuentro haciendo 4 meses de estudios en la Universidad de los Andes en la opción de pregrado en Computación Visual.
+Soy un estudiante de Diseño de la Universidad de Brasília, me encuentro haciendo 4 meses de estudios en la Universidad de los Andes en la opción de pregrado en Computación Visual.
 Llegué a la ciudad el pasado 24 de julio y me quedaré hasta el 2 de noviembre de este año, y estoy esperando para poder extender mi estadía.
 
 <!--more-->
@@ -88,22 +88,22 @@ El módulo que escribí fue el `STNewsFeedParser` que utiliza herramientas del `
 
 {% include figure.html url="ios-lines-views.png" description="Pantallas dibujadas en Sketch" caption="Pantallas dibujadas en Sketch" %}
 
-<figure class="right"><img src="/assets/intentions-appicon.png"/><figcaption>Zen Metronomy</figcaption></figure>
+<figure class="right"><img src="/images/intentions-appicon.png"/><figcaption>Zen Metronomy</figcaption></figure>
 
 Gracias a mi gusto por la meditación y a que, al buscar, no encontré una aplicación que fuese un buen metrónomo para ésto, escribí un aplicación. Ella utiliza el `STAmbience` para hacer una interfaz adaptativa.
 
 Los botones y la interfaz en la imagen son hechos utilizando `UIBezierCurve`. Ésto pues, creando una clase de dibujo de interfaz programática, hace la aplicación más delgada y ésto es muy importante, principalmente para herramientas pequeñas.
 
 <figure class="stack">
-	<img src="/assets/zen-RC.jpg"/>
-	<img src="/assets/zen-CC.jpg"/>
-	<img src="/assets/zen-IC.jpg"/>
+	<img src="/images/zen-RC.jpg"/>
+	<img src="/images/zen-CC.jpg"/>
+	<img src="/images/zen-IC.jpg"/>
 </figure>
 
 <figure class="stack">
-	<img src="/assets/zen-RE.jpg"/>
-	<img src="/assets/zen-CE.jpg"/>
-	<img src="/assets/zen-IE.jpg"/>
+	<img src="/images/zen-RE.jpg"/>
+	<img src="/images/zen-CE.jpg"/>
+	<img src="/images/zen-IE.jpg"/>
 </figure>
 
 Ahora, como estoy estudiando interacción en la universidad dedico 4 horas por semana al desarrollo de juegos en Sprite Kit y Scene Kit. 
