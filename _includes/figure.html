@@ -1,5 +1,7 @@
 <figure class="{{ include.class }}">
-	{% if include.url %}
+	{% if include.url contains "http://" or include.url contains "https://" %}
+		<img src="{{ include.url }}" alt="{{ include.description }}" />
+	{% else if include.url %}
 		<img src="/assets/{{ include.url }}" alt="{{ include.description }}" />
 	{% else %}
 		<div class="fig-canvas center-block"></div>
