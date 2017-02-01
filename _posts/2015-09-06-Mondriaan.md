@@ -115,3 +115,7 @@ Como visto no excerto do diário de Mondrian, sua identificação com a realidad
 - [Theosophical Society in America](https://www.theosophical.org/theosophy)
 - [Theosophy em Wikipedia](https://en.wikipedia.org/wiki/Theosophy)
 - [How Mondrian Went Abstract por Matthew Israel — Artsy](https://www.artsy.net/article/matthew-how-mondrian-went-abstract)
+
+---
+
+Para informação mais detalhada sobre, acesso a leilões de obras, artigos e artistas associados ao trabalho de Piet Mondrian acesse sua página em [Artsy.net](https://www.artsy.net/artist/piet-mondrian).
