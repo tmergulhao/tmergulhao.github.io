@@ -27,8 +27,8 @@ Like `Sequence` and `Collection`, `Optional` is a generic implementation raised 
 
 {% highlight swift %}
 enum Optional {
-case some<T>
-case none
+    case some<T>
+    case none
 }
 {% endhighlight %}
 
@@ -38,9 +38,9 @@ Inspired by it and by collections I wanted to make an similar interface for User
 var numberOfTimes = Default<Int>(key: "SomeKey")
 
 if numberOfTimes != nil {
-numberOfTimes = numberOfTimesValue + 1
+    numberOfTimes = numberOfTimesValue + 1
 } else {
-numberOfTimes = 1
+    numberOfTimes = 1
 }
 
 print(numberOfTimes) // Default(1)
@@ -60,17 +60,17 @@ So and idea of this came to form:
 {% highlight swift %}
 public struct Default<Element : Defaultable> {
 
-var key : String
-var value : Element? {
-didSet {
-UserDefaults.standard.set(value, forKey: key)
-}
-}
+    var key : String
+    var value : Element? {
+        didSet {
+            UserDefaults.standard.set(value, forKey: key)
+        }
+    }
 
-init (key : String) {
-self.key = key
-self.value = UserDefaults.standard.value(forKey: key) as? Element
-}
+    init (key : String) {
+        self.key = key
+        self.value = UserDefaults.standard.value(forKey: key) as? Element
+    }
 }
 {% endhighlight %}
 
