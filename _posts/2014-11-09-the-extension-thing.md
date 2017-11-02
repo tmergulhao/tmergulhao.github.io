@@ -2,6 +2,7 @@
 layout: blog
 title:  "Tales of a Swift future"
 sub: "The extension thing"
+emphasis: "rgb(255, 52, 15)"
 date:   2014-11-09 14:32:20
 categories: swift
 ---

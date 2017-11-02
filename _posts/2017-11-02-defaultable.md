@@ -4,6 +4,7 @@ title:  "Tales of a Swift future"
 sub: "Defaultable, a protocol-oriented take on UserDefaults"
 date:   2017-11-02 14:32:20
 categories: swift
+emphasis: "rgb(255, 52, 15)"
 excerpt_separator: <!--more-->
 ---
 
