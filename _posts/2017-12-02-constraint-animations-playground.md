@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 
 Lately I’ve been working a lot on building prototypes for usability testing.
-There are many types of tests you can apply and they vary a lot in the level of interaction needed to gauge how sustainable is the interaction.
+There are many types of tests you can apply and they vary a lot in the level of fidelity needed to gauge how sustainable is the interaction.
 
 <!--more-->
 
@@ -30,10 +30,10 @@ It’s highly recommended for designers and iOS beginners.
 In the third chapter there are two sections that really caught my interest: *Prototyping in Xcode* and *Animate in Playground*.
 [1. If you intend on reading, I'd recommend you read the whole chapter in order for more context.]
 They were the foundation I needed to leap from Framer to Playgrounds for animation prototyping.
-There I saw a simple walkthrough of implementing interaction on the Live View.
+There I saw a simple walkthrough of implementing interactions on the Live View.
 
 This article explains what I did and what I am to do.
-This is not a tutorial so don’t expect easy and well explained, nonetheless the code is here for you to download, try, thinker and break.
+This is not a tutorial so don’t expect easy and well explained, nonetheless the code is here for you to download, try, tinker and break.
 
 ## Playground
 
@@ -48,7 +48,7 @@ I used them in this example to help me setup the animation states.
 
 Also, in the aforementioned example, Meng uses Swift programatically to setup views, subviews and sizes.
 I'm trying to parallel this with Framer’s Design experience using the `.xib format`.
-It’s like Sketch and Framer’s design mode, but the output is a file that is readable to Xcode and contains not only elements but the relationships between them.
+It’s like Sketch and Framer’s Design mode, but the output is a file that is readable to Xcode and contains not only elements but the relationships between them.
 
 Although playgrounds are really adaptable, the connection of the `Controller` to a given `.xib` file needs to be declared on the public scope.
 In another words, there need to be a public base class declared on another Swift file under the **Sources** folder.
@@ -82,8 +82,8 @@ The final product is the animation below:
 
 ![Card open animation](/images/cap_product.gif)
 
-The idea is to try and study alternatives deliver more realistic, expressive and *maybe* useful for the final product.
-In the following studies I’ll try to coordinate these advances with `Navigation Controller` and other structured to see if it’s feasible as an alternative for high fidelity interaction development.
+The idea is to try and study more realistic, expressive and *maybe* useful deliverables.
+In the following studies I’ll try to coordinate these advances with `Navigation Controller` and other structures to investigate it's feasibility as an option for high fidelity interaction design and development.
 
 ## References
 
