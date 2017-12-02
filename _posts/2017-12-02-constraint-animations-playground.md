@@ -53,7 +53,7 @@ It’s like Sketch and Framer’s design mode, but the output is a file that is 
 Although playgrounds are really adaptable, the connection of the `Controller` to a given `.xib` file needs to be declared on the public scope.
 In another words, there need to be a public base class declared on another Swift file under the **Sources** folder.
 
-![XIB file outline and render](/images/cap-xib.png)
+![XIB file outline and render](/images/cap_xib.png)
 
 {% highlight swift %}
 import UIKit
