@@ -8,7 +8,7 @@ borders: "rgb(229, 229, 229)"
 
 ### TL;DR <small class="hidden">too long; didn't read</small>
 
-Sou Tiago Mergulhão, estudante de Design na Univerdiade de Brasília.
+Sou Tiago Mergulhão, estudante de Design na Universidade de Brasília.
 Durante minha graduação passei um semestre letivo na Universidad de Los Andes em Bogotá, onde os designers e os programadores são as mesmas pessoas.
 Gosto trabalhar com design de interação e interface gráfica.
 
