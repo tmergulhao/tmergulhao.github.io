@@ -18,9 +18,8 @@ compress_html:
     ignore:
     envs: []
 
-gems:
+plugins:
  - jekyll-coffeescript
- - jekyll-admin
 
 collections:
   data:
